@@ -2,8 +2,8 @@ body {
     width:99%;
     min-height: 100vh;
     margin:5px;
-    background: linear-gradient(90deg, rgba(3,77,0,1) 0%, rgba(9,121,28,1) 50%, rgba(9,255,0,1) 100%);
-    color: Black;
+    background:rgba(9,255,0,1);
+    color: white;
 }
 #grid-container {
     display: grid;
@@ -69,42 +69,67 @@ body {
 }
 
 .profil {
-    border: solid 3px;
+    background: linear-gradient(90deg, rgba(9,255,0,1) 0%, rgba(9,121,28,1) 50%, rgba(3,77,0,1) 100%);
+    border-radius: .4em;
     position: relative;
     width: 90%;
     height: 130px;
-    margin-bottom: 10px;
-    margin-top:7px;
-    margin-bottom: 15px;
+    margin-top:6px;
+    margin-bottom: 25px;
+}
+
+.profil li {
+    list-style-type: none;
+    text-align: right;
+    margin-right:10px;
 }
 
 .etude {
-    border:solid 3px;
+    background: linear-gradient(90deg, rgba(9,255,0,1) 0%, rgba(9,121,28,1) 50%, rgba(3,77,0,1) 100%);
+    border-radius: .4em;
     position: relative;
     width: 90%;
     height:130px;
-    margin-top:13px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+}
+.etude li {
+    list-style-type: none;
+    text-align: center;
+    margin-right:10px;
 }
 
 .experience {
-    border:solid 3px;
+    background: linear-gradient(90deg, rgba(9,255,0,1) 0%, rgba(9,121,28,1) 50%, rgba(3,77,0,1) 100%);
+    border-radius: .4em;
     position: relative;
     width:90%;
     height: 130px;
-    margin-top:13px;
-    margin-bottom: 15px;
+    margin-top:10px;
+    margin-bottom: 25px;
+
+}
+.experience li {
+    list-style-type: none;
+    text-align: center;
+    margin-right:10px;
 }
 
 .competence {
-    border:solid 3px;
+    background: linear-gradient(90deg, rgba(9,255,0,1) 0%, rgba(9,121,28,1) 50%, rgba(3,77,0,1) 100%);
+    border-radius: .4em;
     position:relative;
     width:90%;
     height: 130px;
-    margin-top: 13px;
+    margin-top:10px;
 }
 
-
+.competence li {
+    list-style-type: none;
+    text-align: center;
+    margin-right:10px;
+}
 
 
 
